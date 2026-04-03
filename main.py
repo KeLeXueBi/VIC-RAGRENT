@@ -16,6 +16,7 @@ from core.multi_agent_review_system import MultiAgentReviewSystem
 from core.direct_agent_review_system import DirectAgentReviewSystem
 from core.cot_agent_review_system import CotAgentReviewSystem
 from core.rag_db_handler import RagDbHandler
+from core.compute_cost import static_compute_cost
 
 
 DATASET_PATH = "data/V-SZZ_dataset.csv"
@@ -328,6 +329,8 @@ class Solution:
         RagDbHandler.cleanup_rag_and_vector(keep_commit_ids=true_positive_commits)
 
         logger.info("Detection finished.")
+        
+        static_compute_cost()
             
     @staticmethod
     async def _run_review(service_agent, llm_type: str, commit_review_request):
