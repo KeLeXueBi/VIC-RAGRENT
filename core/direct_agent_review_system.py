@@ -85,7 +85,7 @@ class SessionHandlerDirectReview:
         logger.info("Building prompt for direct review...")
         prompt = PromptBuilderDirectReview.build_direct_review_prompt(request, session, definition)
         with LLMQueryClient(llm_type=llm_type) as llm_client:
-            response = await llm_client.query(prompt, agent, 0.5)
+            response = await llm_client.query(session, prompt, agent, 0.5)
         result = ResponseParser.parse_json_from_response(response)
         have_vulnerabilities = result["have_vulnerability"]
         if have_vulnerabilities == "yes":
