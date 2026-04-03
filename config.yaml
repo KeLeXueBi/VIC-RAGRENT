@@ -1,0 +1,11 @@
+deepseek:
+  api-key: 
+  api-url: https://api.deepseek.com/v1
+  
+openrouter:
+  api-key: 
+  api-url: https://openrouter.ai/api/v1
+
+Qwen:
+  api-key: 
+  api-url: https://dashscope.aliyuncs.com/compatible-mode/v1
