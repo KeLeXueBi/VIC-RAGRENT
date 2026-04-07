@@ -34,6 +34,8 @@ with open(path, "w", encoding="utf-8") as f:
     f.write(content)
 ```
 
+However, this solution may not fully resolve all encoding-related issues.
+
 ### API Configuration
 
 The API keys are **not included** in this repository.
