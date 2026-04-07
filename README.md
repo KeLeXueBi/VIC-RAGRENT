@@ -88,7 +88,8 @@ Qwen:
 
 | File                     | Description                 |
 |:-------------------------|:----------------------------|
-| `V-SZZ_dataset.csv`      | Dataset                     |
+| `2025_2026_CVE.csv`      | Dataset without data leakage|
+| `V-SZZ_dataset.csv`      | Dataset (main)              |
 | `role_definition.json`   | Agent role definitions      |
 
 ---
