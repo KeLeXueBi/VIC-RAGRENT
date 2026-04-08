@@ -3,6 +3,8 @@
 ## 1  Project Description
 This project proposes an LLM-based multi-agent framework to determine whether a code commit introduces new security vulnerabilities.
 
+---
+
 ## 2  Environment
 
 - Ubuntu (other OSs may also work)
@@ -56,6 +58,8 @@ Qwen:
   api-url: "YOUR_API_URL"
 ```
 
+---
+
 ## 3  Project Structure
 
 | Directory   | Description                              |
@@ -64,6 +68,8 @@ Qwen:
 | data        | Dataset and role definitions             |
 | enums       | Enum definitions                         |
 | utils       | Utility modules                          |
+
+---
 
 ## 4  Modules
 
