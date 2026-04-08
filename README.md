@@ -1,7 +1,5 @@
 # Detecting Vulnerability-Inducing Commits via Multi-Stage Reasoning with LLM-Based Agents
 
----
-
 ## 1  Project Description
 This project proposes an LLM-based multi-agent framework to determine whether a code commit introduces new security vulnerabilities.
 
