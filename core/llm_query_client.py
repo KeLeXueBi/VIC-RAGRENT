@@ -92,10 +92,11 @@ class LLMQueryClient:
 
         if self._llm == 'deepseek':
             common_args = dict(
-                model="deepseek-chat",
+                model="deepseek-v4-flash",
                 messages=payload,
                 max_tokens=1600,
                 temperature=temperature,
+                thinking="disabled",
                 stream=False
             )
         elif self._llm == 'gpt-4o-mini':
