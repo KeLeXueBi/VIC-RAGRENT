@@ -61,6 +61,8 @@ Qwen:
   api-url: "YOUR_API_URL"
 ```
 
+**Note:** DeepSeek was upgraded from V3.2 to V4 on April 24, 2026. Some APIs or parameters used in this project may be outdated. Please check the latest official documentation if you encounter compatibility issues.
+
 ---
 
 ## 3  Project Structure
