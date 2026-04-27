@@ -4,6 +4,7 @@
 
 This project proposes an LLM-based multi-agent framework to determine whether a code commit introduces new security vulnerabilities.
 The corresponding paper is submitted to QRS'26.
+
 ---
 
 ## 2  Environment
