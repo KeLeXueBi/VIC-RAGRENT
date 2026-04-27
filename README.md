@@ -61,7 +61,7 @@ Qwen:
   api-url: "YOUR_API_URL"
 ```
 
-**Note:** As of April 24, 2026, DeepSeek has been upgraded from V3.2 to V4. Some APIs or parameters used in this project may have changed. We have adapted the API calls for V4 compatibility. <span style="color:red;">Due to potential differences between model versions, experimental results reported in the paper may vary under the updated environment.</span>
+**Note:** As of April 24, 2026, DeepSeek has been upgraded from V3.2 to V4. Some APIs or parameters used in this project may have changed. We have adapted the API calls for V4 compatibility. **Due to potential differences between model versions, experimental results reported in the paper may vary under the updated environment.**
 
 ---
 
